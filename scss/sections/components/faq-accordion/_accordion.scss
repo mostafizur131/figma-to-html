@@ -1,0 +1,46 @@
+.faq-accordion {
+  max-width: 650px;
+  transition: all 0.5s linear;
+  margin-bottom: 40px;
+
+  &-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    cursor: pointer;
+
+    &:hover i {
+      color: #3147ff;
+    }
+    .faq-accordion-title {
+      color: #121212;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: -0.3px;
+      display: inline-block;
+    }
+
+    i {
+      font-size: 28px;
+      color: #121212;
+    }
+  }
+
+  .faq-accordion-body {
+    max-width: 606px;
+    transition: all 0.5s linear;
+    display: none;
+
+    &-text {
+      max-width: 550px;
+      color: #414141;
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 34px;
+    }
+  }
+}

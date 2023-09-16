@@ -1,0 +1,83 @@
+.h01-content2-section {
+  background-color: #f4f7fe;
+  padding: 130px 0;
+
+  .h01-content2-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .h01-content2-body-content {
+      margin-bottom: 80px;
+      &-title {
+        max-width: 636px;
+        margin: 0 auto;
+        color: #121212;
+        margin-bottom: 28px;
+        text-align: center;
+      }
+      &-text {
+        max-width: 636px;
+        margin: 0 auto;
+        color: #121212;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      &-benefits {
+        margin-top: 50px;
+        .benefit {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &-badge {
+            width: 30px;
+            height: 30px;
+            flex-shrink: 0;
+            margin-right: 10px;
+          }
+          &-text {
+            color: #121212;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 34px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+  .h01-content2-section {
+    margin-bottom: 0px;
+    .h01-content2-body {
+      flex-direction: row;
+      .h01-content2-body-content {
+        &-title {
+          text-align: left;
+        }
+        &-text {
+          text-align: left;
+        }
+        .benefit {
+          justify-content: start;
+        }
+      }
+    }
+  }
+}

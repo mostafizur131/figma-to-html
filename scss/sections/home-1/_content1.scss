@@ -1,0 +1,104 @@
+.h01-content1-section {
+  background-color: #fff;
+  padding: 130px 0;
+
+  .h01-content1-title {
+    max-width: 856px;
+    margin: 0 auto;
+    color: #121212;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -1px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .h01-content1-facts {
+    margin-bottom: 130px;
+    &-title {
+      color: #3147ff;
+      text-align: center;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 80px;
+      letter-spacing: -1px;
+      margin-bottom: 10px;
+    }
+    &-text {
+      color: #414141;
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+
+  .h01-content1-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &-img {
+      img {
+        max-width: 481.747px;
+        padding: 21.978px 22.275px 22.06px 21.978px;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0px 3.66283px 73.2565px 0px rgba(0, 0, 0, 0.08);
+      }
+    }
+    .h01-content1-body-content {
+      margin-top: 80px;
+      &-title {
+        max-width: 636px;
+        margin: 0 auto;
+        color: #121212;
+        margin-bottom: 28px;
+        text-align: center;
+      }
+      &-text {
+        max-width: 636px;
+        margin: 0 auto;
+        color: #121212;
+        text-align: center;
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+  .h01-content1-section {
+    .h01-content1-body {
+      flex-direction: row;
+      .h01-content1-body-content {
+        margin-top: 0px;
+        &-title {
+          text-align: left;
+        }
+        &-text {
+          text-align: left;
+        }
+      }
+    }
+  }
+}

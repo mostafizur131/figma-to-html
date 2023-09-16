@@ -1,0 +1,84 @@
+.home2_testimonial_section {
+  background-color: #fff;
+  padding: 130px 0;
+
+  .home2_testimonial_section_content {
+    .home2_testimonial_section_content-left {
+      .home2_testimonial_section_content-left-title {
+        margin-bottom: 28px;
+      }
+
+      .home2_testimonial_section_content-left-text {
+        color: #121212;
+        margin-top: 28px;
+
+        max-width: 636px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+      }
+
+      .home2_testimonial_section_content-left-success {
+        .home2_testimonial_section_content-left-success-count {
+          color: #121212;
+          font-size: 52px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 52px;
+          letter-spacing: -1px;
+        }
+
+        .home2_testimonial_section_content-left-success-title {
+          color: #414141;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px;
+        }
+      }
+    }
+
+    .home2_testimonial_section_content-right {
+      .home2_testimonial_section_testimonials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .home2_testimonial_section_card {
+          max-width: 526px;
+        }
+      }
+      .home2_testimonial_section_testimonials_slide-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) {
+  .home2_testimonial_section_content-left-title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+  .home2_testimonial_section_content-left-title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+  .home2_testimonial_section_content-left-title {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

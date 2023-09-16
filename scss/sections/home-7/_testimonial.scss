@@ -1,0 +1,29 @@
+.home7_testimonial_section {
+  background-color: #fff;
+  padding: 130px 0;
+
+  .home7_testimonial_section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+
+    .home7_testimonial_section-header-btn {
+      background-color: #3147ff;
+      font-size: 16px;
+      border: 1px solid #3147ff;
+      color: #fff;
+      border-radius: 50px;
+    }
+  }
+
+  .home7_testimonial_section_card {
+    max-width: 416px;
+    flex-shrink: 0;
+    .home7_testimonial_section_card-content-client {
+      .testimonial_card-client-author {
+        margin-left: 0px;
+      }
+    }
+  }
+}

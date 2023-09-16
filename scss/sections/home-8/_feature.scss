@@ -1,0 +1,74 @@
+.home8_feature_section {
+  background-color: #fff;
+  padding: 130px 0;
+
+  .home8_feature_section-title {
+    color: #121212;
+    text-align: center;
+  }
+
+  .home8_feature_section-cards {
+    margin-top: 80px;
+
+    .home8_feature_section-card {
+      width: 416px;
+      height: 313px;
+      flex-shrink: 0;
+      background-color: #fff;
+      padding: 30px;
+
+      .home8_feature_section-card-icon {
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+        padding-bottom: 30px;
+      }
+
+      .home8_feature_section_card-title {
+        color: #121212;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
+        margin-bottom: 15px;
+      }
+
+      .home8_feature_section_card-text {
+        color: #414141;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) {
+  .home8_feature_section-title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+  .home8_feature_section-title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+  .home8_feature_section-title {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

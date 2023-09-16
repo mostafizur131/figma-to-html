@@ -1,0 +1,7 @@
+node_modules
+yarn.lock
+db.json
+app/db.json
+build
+bootstrap
+trash

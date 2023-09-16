@@ -1,0 +1,89 @@
+.home4_feature_section {
+  background-color: #fff;
+  padding: 130px 0;
+
+  .home4_feature_section-header {
+    margin-bottom: 80px;
+    text-align: center;
+
+    .home4_feature_section-header-btn {
+      background-color: #3147ff;
+      font-size: 16px;
+      border: 1px solid #3147ff;
+      color: #fff;
+    }
+  }
+
+  .home4_feature_section-wigerts {
+    .home4_feature_section-wigert {
+      width: 356px;
+      height: 250px;
+      flex-shrink: 0;
+
+      .home4_feature_section-wigert-icon {
+        width: 70px;
+        height: 60px;
+        flex-shrink: 0;
+        margin-bottom: 30px;
+      }
+
+      .home4_feature_section-wigert-title {
+        color: #121212;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
+        margin-bottom: 15px;
+      }
+      .home4-feature_section_wigert-text {
+        color: #121212;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+      }
+      .home4_feature_section-wigert-link {
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #414141;
+        i {
+          margin-left: 5px;
+        }
+        &:hover,
+        &:active {
+          color: #3147ff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) {
+  .home4_feature_section-header-title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+  .home4_feature_section-header-title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+  .home4_feature_section-header-title {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+}

@@ -1,0 +1,112 @@
+.testimonial-card {
+  background: #fff;
+  padding: 30px;
+  border: 2px solid #eaedf0;
+  border-radius: 10px;
+
+  &-stars {
+    margin-bottom: 20px;
+  }
+  .testimonial-card-body {
+    &-title {
+      color: #121212;
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 34px;
+      margin-bottom: 10px;
+    }
+    &-text {
+      color: #121212;
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 34px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .testimonial-card-client {
+    display: flex;
+    align-items: center;
+
+    &-thumb {
+      width: 60px;
+      height: 60px;
+      flex-shrink: 0;
+      border-radius: 50%;
+    }
+
+    .testimonial-card-client-author {
+      margin-left: 15px;
+      &-title {
+        color: #121212;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        margin-bottom: 5px;
+      }
+      &-role {
+        color: #121212;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+.testimonial_card2 {
+  .testimonial_card2-left {
+    .testimonial_card2-left-thumb {
+      //   max-width: 550px;
+      //   max-height: 550px;
+      //   flex-shrink: 0;
+      border-radius: 10px;
+    }
+  }
+
+  .testimonial_card2-right {
+    .testimonial_card2-stars {
+      margin-top: 15px;
+    }
+    .testimonial_card2-content {
+      .testimonial_card2-content-title {
+        color: #fff;
+
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: -1px;
+      }
+      .testimonial_card2-content-text {
+        color: #fff;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+      }
+    }
+
+    .testimonial_card2-client-author {
+      .testimonial_card2-client-author-title {
+        color: #fff;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 34px;
+        margin-bottom: 50px;
+      }
+      .testimonial_card2-client-author-role {
+        color: #414141;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+}

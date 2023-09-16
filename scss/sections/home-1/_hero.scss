@@ -1,0 +1,125 @@
+.h01-hero-section {
+  background: #3147ff url("../../../assets/images/home-1/hero/shape.png")
+    no-repeat top center/cover;
+  padding-top: 15px;
+
+  .h01-navbar {
+    // max-width: 1296px;
+    // height: 50px;
+    // flex-shrink: 0;
+    // margin: 0 auto;
+
+    &-logo {
+      width: 124px;
+    }
+
+    &-links {
+      .h01-navbar-link {
+        &:not(:last-child) {
+          margin-right: 40px;
+        }
+        a {
+          color: #fff;
+          font-family: Public Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 24px;
+        }
+      }
+    }
+
+    &-cta {
+      li {
+        &:not(:last-child) {
+          margin-right: 40px;
+        }
+        a {
+          color: #fff;
+          font-family: Public Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+
+  .h01-hero-body {
+    padding-top: 125px;
+    text-align: center;
+
+    .h01-hero-content {
+      &-title {
+        color: #fff;
+        max-width: 636px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+      }
+      &-text {
+        max-width: 660px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+      }
+      &-btn {
+        margin-bottom: 80px;
+      }
+
+      &-brands {
+        max-width: 630px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+      }
+    }
+    .h01-hero-img {
+      img {
+        filter: drop-shadow(
+          0px 4.608582496643066px 69.12873840332031px rgba(40, 55, 79, 0.1)
+        );
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+  .h01-hero-section {
+    .h01-navbar {
+      &-logo {
+        margin-top: -20px;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+  .h01-hero-section {
+    position: relative;
+    padding-bottom: 130px;
+    .h01-hero-body {
+      .h01-hero-content {
+        text-align: left;
+      }
+      .h01-hero-img {
+        img {
+          position: absolute;
+          bottom: 0;
+          right: 150px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+.section-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.btn-custom {
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #3147ff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn-custom--primary {
+  background-color: #3147ff;
+  border: 1px solid #3147ff;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: #3147ff;
+}
+
+.section-title {
+  font-size: 45px;
+  line-height: 45px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #121212;
+}
+
+.section-text {
+  color: #fff;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.gxx {
+  margin-left: 24px;
+}
+
+.active-card {
+  background-color: #3147ff !important;
+  border-color: #3147ff !important;
+  color: #fff !important;
+}
+.active-pagination {
+  background: #3147ff !important;
+  color: #fff !important;
+}
+
+.span-color {
+  color: #3147ff;
+}
+
+.flexItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divider {
+  max-width: 569px;
+  height: 1px;
+  background: #cbd2d9;
+  margin: 0 auto;
+}
+
+.divider2 {
+  max-width: 1296px;
+  height: 1px;
+  background: #cbd2d9;
+  margin: 0 auto;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+  .section-title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+  .btn-custom {
+    font-size: 16px;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+  .section-title {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .btn-custom {
+    padding: 18px 28px;
+  }
+}

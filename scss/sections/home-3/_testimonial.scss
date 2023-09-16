@@ -1,0 +1,24 @@
+.home3_testimonial_section {
+  background-color: #3147ff;
+  padding: 130px 0;
+  border-radius: 20px;
+
+  .home3_testimonial_section_card-thumb {
+    max-width: 550px;
+    max-height: 550px;
+    flex-shrink: 0;
+  }
+
+  .home3_testimonial_section_card-stars {
+    margin-bottom: 50px;
+  }
+  .home3_testimonial_section_card-content {
+    .home3_testimonial_section_card-content-title {
+      margin-bottom: 24px;
+      font-size: 52px;
+    }
+    .home3_testimonial_section_card-content-text {
+      margin-bottom: 20px;
+    }
+  }
+}

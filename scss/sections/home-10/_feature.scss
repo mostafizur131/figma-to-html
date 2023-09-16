@@ -1,0 +1,38 @@
+.home10_feature_section {
+  background-color: #fff;
+  padding: 80px 0;
+
+  .home10_feature_section-wigerts {
+    .home10_feature_section-wigert {
+      max-width: 306px;
+      height: 247px;
+      flex-shrink: 0;
+      background: #fff;
+      padding: 24px;
+
+      .home10_feature_section-wigert-icon {
+        width: 43px;
+        height: 43px;
+        flex-shrink: 0;
+        padding-bottom: 24px;
+      }
+
+      .home10_feature_section_wigert-title {
+        color: #121212;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
+        margin-bottom: 15px;
+      }
+
+      .home10_feature_section_wigert-text {
+        color: #414141;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+  }
+}

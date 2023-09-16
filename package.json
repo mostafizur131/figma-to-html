@@ -1,0 +1,16 @@
+{
+  "name": "flowto-html-temp",
+  "version": "1.0.0",
+  "description": "Flowto html development.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sass:watch": "sass scss/style.scss css/style.css -w"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
+}

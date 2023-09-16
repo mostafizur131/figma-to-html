@@ -1,0 +1,44 @@
+.home9_testimonial_section {
+  background-color: #fff;
+  padding: 130px 0;
+
+  .home9_testimonial_section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+    .home9_testimonial_section-header-text {
+      color: #121212;
+    }
+  }
+
+  .home9_testimonial_section_card {
+    max-width: 416px;
+    flex-shrink: 0;
+    text-align: center;
+    border: 0px solid #eaedf0;
+    .home9_testimonial_section_card-content-client {
+      .testimonial_card-client-author {
+        margin-left: 0px;
+      }
+    }
+    .testimonial_card-client {
+      display: block;
+    }
+  }
+
+  .home9_testimonial_section_viewAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    .home9_testimonial_section_view-btn {
+      background-color: #3147ff;
+      border: 1px solid #3147ff;
+      border-radius: 50px;
+      color: #fff;
+      text-align: center;
+    }
+  }
+}

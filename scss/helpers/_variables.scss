@@ -1,0 +1,13 @@
+$primary: #3147ff;
+$secondary: #1ae5be;
+$neutral: #ffffff;
+$neutral2: #414141;
+$neutral3: #121212;
+$neutral4: #cbd2d9;
+
+@mixin flexCenter($direction: row, $justification: center) {
+  display: flex;
+  justify-content: $justification;
+  align-items: center;
+  flex-direction: $direction;
+}

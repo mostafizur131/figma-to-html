@@ -1,0 +1,43 @@
+.h01-feature-section {
+  background-color: #fff;
+  padding: 130px 0;
+  text-align: center;
+
+  .h01-feature-header {
+    &-title {
+      max-width: 856px;
+      margin: 0 auto;
+    }
+    &-text {
+      max-width: 720px;
+      color: #414141;
+      margin: 0 auto;
+      margin-top: 28px;
+      margin-bottom: 80px;
+    }
+  }
+
+  .h01-feature-body {
+    .h01-feature-card {
+      max-width: 306px;
+      height: 284px;
+      margin: 0 auto;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

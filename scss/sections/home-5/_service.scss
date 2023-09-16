@@ -1,0 +1,93 @@
+.home5_service_section {
+  background-color: #121212;
+  padding: 130px 0;
+
+  color: #ffffff;
+
+  .home5_service_section-title {
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .home5_service_section-text {
+    max-width: 797px;
+    margin: 0 auto;
+    color: #ffffff;
+    margin-top: 28px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  .home5_service_section-cards {
+    .home5_service_section-card {
+      width: 416px;
+      height: 311px;
+      flex-shrink: 0;
+      border-radius: 10px;
+      border: 1px solid #414141;
+      background-color: #121212;
+      padding: 30px;
+      color: #ffffff;
+
+      .home5_service_section-card-icon {
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+        padding-bottom: 30px;
+      }
+
+      .home5_service_section_card-title {
+        color: #ffffff;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
+        margin-bottom: 15px;
+      }
+
+      .home5_service_section_card-text {
+        color: #ffffff;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin-bottom: 30px;
+      }
+
+      .home5_service_section-card-link {
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) {
+  .home5_service_section-title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+  .home5_service_section-title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+  .home5_service_section-title {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
